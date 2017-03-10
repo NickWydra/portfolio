@@ -4,17 +4,17 @@
     <link rel="stylesheet" href="/static/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="utf-8">
-    <title>EECS485</title>
+    <title>Nick Wydra</title>
 </head>
 <body>
-    <header class="center">
-        <p>Team 51 Header</p>
-    </header>
-  <div class="center">
-    Hello World!
+  <header>
+      <p>Header</p>
+  </header>
+  <div>
+    {% block content %}{% endblock %}
   </div>
-  <footer class="center">
-    <p>Team 51 Footer</p>
+  <footer>
+    <p>Footer</p>
   </footer>
   <script type="text/javascript" src="/static/js/main.js"></script>
 </body>

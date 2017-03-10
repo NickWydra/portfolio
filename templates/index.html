@@ -1,35 +1,5 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Welcome to our Interactive Photo Album</h1>
-    <p class="center">
-      Welcome!
-    </p>
-    <h2>User List</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>User #</th>
-                <th>Username</th>
-                <th>Album</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>sportslover</td>
-                <td><a id="user_albums_sportslover" href="{{url_for('albums.albums_route', username='sportslover')}}">View Album</a></td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>traveler</td>
-                <td><a id="user_albums_traveler" href="{{url_for('albums.albums_route', username='traveler')}}">View Album</a></td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>spacejunkie</td>
-                <td><a id="user_albums_spacejunkie" href="{{url_for('albums.albums_route', username='spacejunkie')}}">View Album</a></td>
-            </tr>
-        </tbody>
-    </table>
+    <p>Hello, World!</p>
 {% endblock %}
 
