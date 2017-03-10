@@ -1,0 +1,8 @@
+.vagrant/*
+*.pyc
+*.txt
+*.jpg
+venv/*
+.DS_Store
+
+templates/album.html
