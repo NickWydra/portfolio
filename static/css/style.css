@@ -1,0 +1,41 @@
+#nav {
+    position: fixed;
+    margin-left: -8px;
+    width: 100%;
+    top: 0;
+    height: 65px;
+    background-color: blue;
+}
+
+#nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    background-color: green;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 5px 5px;
+    text-decoration: none;
+}
+
+svg {
+    position: absolute;
+    width: 100%;
+    margin-left: -8px;
+    top: 5px;
+}
+
+#solidN {
+    position: fixed;
+    margin-left: -8px;
+    display: none;
+    width: 100%;
+    top: 5px;
+}
+
+.main {
+    margin-top: 75px;
+    height: 600px;
+    width: 50px;
+    background-color: red;
+}
