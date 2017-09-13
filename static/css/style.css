@@ -1,0 +1,29 @@
+.background-half-page {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:50%;
+    background-size:cover;
+    z-index: -100;
+}
+.left {
+    left:0;
+    background-image:url("../img/IMG_3140*.JPG");
+    transform: scaleX(-1);
+    background-position: 99%;
+    border-left: 2.5px solid whitesmoke;
+}
+.right {
+    right:0;
+    background-image:url("../img/laptop-journal-book-coffee.jpg");
+    background-position: 75%;
+    border-left: 2.5px solid whitesmoke;
+}
+#headshot-div {
+    padding-top: 20vh;
+}
+#headshot-img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+}
