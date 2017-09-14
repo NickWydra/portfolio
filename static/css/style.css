@@ -11,19 +11,22 @@
     background-image:url("../img/IMG_3140*.JPG");
     transform: scaleX(-1);
     background-position: 99%;
-    border-left: 2.5px solid whitesmoke;
 }
 .right {
     right:0;
     background-image:url("../img/laptop-journal-book-coffee.jpg");
     background-position: 75%;
-    border-left: 2.5px solid whitesmoke;
 }
 #headshot-div {
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 #headshot-img {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid whitesmoke;
+    box-shadow: 0 0 5px 3px;
+}
+#bio {
+    width: 50vw;
+    margin: 0 auto;
 }
